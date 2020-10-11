@@ -34,8 +34,8 @@ public class Sat_Comp_Library : MonoBehaviour
 
         SatCompLib = this;
 
-        if (available_chases.Count == 0) Debug.Log("WARNING: Chasis list contains not Chases, will lead to errors");
-        if (available_types.Count == 0) Debug.Log("WARNING: Type list contains not Chases, will lead to errors");
+        if (available_chases.Count == 0) Debug.Log("WARNING: Chasis list contains no Chases, will lead to errors");
+        if (available_types.Count == 0) Debug.Log("WARNING: Type list contains no types, will lead to errors");
     }
 
     // Update is called once per frame
